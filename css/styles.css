@@ -237,6 +237,29 @@ header{
 
 /*media responsive */
 
+@media (width < 900px) {
+    .link a:not(.nav__btn) {
+        display: none;
+    }
+
+    .container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .content__container{
+        text-align: center;
+    }
+    
+    .content__container form {
+        margin-right: auto;
+        margin-left: auto;
+        align-items: center;
+
+    }
+
+    
+}
+
 @media (max-width: 1280px){
     header{
         padding: 14px 2%;
