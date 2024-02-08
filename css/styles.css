@@ -535,7 +535,7 @@ header {
     align-items: center;
   }
 }
-/* about media responsive */
+/* about media responsive styles*/
 
 @media screen and (max-width: 1250px) {
   .about {
