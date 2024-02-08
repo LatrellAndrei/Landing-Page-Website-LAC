@@ -1,141 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Practice</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"  rel="stylesheet"/>
-    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <!--NavBar-->
     <header>
-        <a href="index.html" class="logo"><i class='bx bx-layer' ></i><span>LAC</span></a>
-        <ul class="navbar">
-            <li><a href="#page1" class="active">Home</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#page2">Services</a></li>
-            <li><a href="">Blog</a></li>
-            <li><a href="">Contact</a></li>
-        </ul>
-        <div class="main">
-            <a href="" class="user"><i class='bx bxs-user' ></i>Sign In</a>
-            <a href="">Get Started</a>
-            <div class="bx bx-menu" id="menu-icon" class="nav__btn"></div>
-        </div>
+      <a href="index.html" class="logo"
+        ><i class="bx bx-layer"></i><span>LAC</span></a
+      >
+      <ul class="navbar">
+        <li><a href="#landing-page" class="active">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#features">Services</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+      <div class="main">
+        <a href="" class="user"><i class="bx bxs-user"></i>Sign In</a>
+        <a href="">Get Started</a>
+        <div class="bx bx-menu" id="menu-icon" class="nav__btn"></div>
+      </div>
     </header>
-        <!--Landing Page section-->
-        <section id="page1" class="container">
-            <div class="content__container">
-                <h1>Create Websites<br>
-                    <span class="heading__1">for your</span><br>
-                    <span class="heading__2">Customers!</span>
-                </h1>
-                <p>
-                    Creating websites for customers involves a dynamic process that begins with understanding their unique needs, 
-                    objectives, and target audience. It entails comprehensive consultations
-                    to conceptualize the design, layout, and functionalities desired. 
-                    From crafting user-friendly interfaces to integrating responsive designs and 
-                    optimizing for search engines, each step requires meticulous attention to detail. 
-                </p>
-                <form>
-                    <button type="submit" >Chat us!</button>
-                </form>
-            </div>
-            <div class="image__container">
-                <img src="image/header1.png" alt="headerImage">
-                <img src="image/header2.png" alt="headerImage">
-                <div class="image__content">
-                    <ul>
-                        <li>Get 30% off when you chat us!</li>
-                        <li>Amazing Website Creators</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        <!--<a href="http://www.freepik.com">Designed by stories / Freepik</a> 
-            <a href="http://www.freepik.com">Designed by Freepik</a>
-        -->
-            <!--About section-->
-            <section class="about" id="about">
-                <div class="main-about">
-                    <img src="image/image1.png" alt="">
-                    <div class="all-text">
-                        <h4>About Us</h4>
-                        <h1>Custom Web Solutions for Success</h1>
-                        <p>At LAC Web Design & Development, we specialize in crafting stunning and 
-                            functional websites tailored to meet our clients' unique needs. 
-                            With a dedicated team of designers and developers, 
-                            we strive to deliver cutting-edge solutions that elevate our clients'
-                             online presence and drive their success in the digital realm.</p>
-                             <div class="btn-about">
-                                <button type="button">Our Team</button>
-                                <button type="button" class="btn2">Learn More</button>
-
-                             </div>
-                    </div>
-                </div>
-            </section>
-            <!--Features/Services section-->
-        <div id="page2" class="container_features">
-            <h1>Our Services</h1>
-           <div class="row">
-            <div class="service">
-                <i class='bx bx-laptop'></i>
-                <h2>Web Design</h2>
-                <p>Web design crafts visually appealing, functional websites for user satisfaction.</p>
-            </div>
-            
-            <div class="service">
-                <i class='bx bx-line-chart'></i>
-                <h2>Marketing</h2>
-                <p>Marketing promotes products or services to reach potential customers and drive sales.</p>
-            </div>
-            
-            <div class="service">
-                <i class='bx bxs-palette'></i>
-                <h2>Graphics</h2>
-                <p>Graphics are visual elements crafted to convey messages and captivate audiences.</p>
-            </div>
-            
-            <div class="service">
-                <i class='bx bxs-pie-chart-alt-2'></i>
-                <h2>Data Analysis</h2>
-                <p>Data analysis examines information to uncover insights and make informed decisions.</p>
-            </div>
-            
-            <div class="service">
-                <i class="ri-smartphone-line"></i>
-                <h2>App Development</h2>
-                <p>App development crafts software applications to meet user needs and enhance digital experiences.</p>
-            </div>
-            
-            <div class="service">
-                <i class="ri-window-fill"></i>
-                <h2>Website Development</h2>
-                <p>Website development builds and optimizes websites to meet user needs and enhance online experiences.</p>
-            </div>
-            
-            <div class="service">
-                <i class="ri-customer-service-line"></i>                
-                <h2>Customer Service</h2>
-                <p>Customer service in website creation offers tailored assistance and support to clients.</p>
-            </div>
-            
-            <div class="service">
-                <i class="ri-user-shared-line"></i>
-                <h2>Networking</h2>
-                <p>Networking builds professional relationships for mutual benefit.</p>
-            </div>
-            
-           </div> 
+    <!--Home/Landing Page section-->
+    <section id="landing-page" class="container">
+      <div class="content__container">
+        <h1>
+          Create Websites<br />
+          <span class="heading__1">for your</span><br />
+          <span class="heading__2">Customers!</span>
+        </h1>
+        <p>
+          Creating websites for customers involves a dynamic process that begins
+          with understanding their unique needs, objectives, and target
+          audience. It entails comprehensive consultations to conceptualize the
+          design, layout, and functionalities desired. From crafting
+          user-friendly interfaces to integrating responsive designs and
+          optimizing for search engines, each step requires meticulous attention
+          to detail.
+        </p>
+        <form>
+          <button type="submit">Chat us!</button>
+        </form>
+      </div>
+      <div class="image__container">
+        <img src="image/header1.png" alt="headerImage" />
+        <img src="image/header2.png" alt="headerImage" />
+        <div class="image__content">
+          <ul>
+            <li>Get 30% off when you chat us!</li>
+            <!--<a href="http://www.freepik.com">Designed by stories / Freepik</a> 
+            <a href="http://www.freepik.com">Designed by Freepik</a>-->
+            <li>Amazing Website Creators</li>
+          </ul>
         </div>
+      </div>
+    </section>
+    <!--About Us section-->
+    <section class="about" id="about">
+      <div class="main-about">
+        <img src="image/image1.png" alt="" />
+        <div class="all-text">
+          <h4>About Us</h4>
+          <h1>Custom Web Solutions for Success</h1>
+          <p>
+            At LAC Web Design & Development, we specialize in crafting stunning
+            and functional websites tailored to meet our clients' unique needs.
+            With a dedicated team of designers and developers, we strive to
+            deliver cutting-edge solutions that elevate our clients' online
+            presence and drive their success in the digital realm.
+          </p>
+          <div class="btn-about">
+            <button type="button">Our Team</button>
+            <button type="button" class="btn2">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Features/Services section-->
+    <div id="features" class="container_features">
+      <h1>Our Services</h1>
+      <div class="row">
+        <div class="service">
+          <i class="bx bx-laptop"></i>
+          <h2>Web Design</h2>
+          <p>
+            Web design crafts visually appealing, functional websites for user
+            satisfaction.
+          </p>
+        </div>
+        <div class="service">
+          <i class="bx bx-line-chart"></i>
+          <h2>Marketing</h2>
+          <p>
+            Marketing promotes products or services to reach potential customers
+            and drive sales.
+          </p>
+        </div>
+        <div class="service">
+          <i class="bx bxs-palette"></i>
+          <h2>Graphics</h2>
+          <p>
+            Graphics are visual elements crafted to convey messages and
+            captivate audiences.
+          </p>
+        </div>
+        <div class="service">
+          <i class="bx bxs-pie-chart-alt-2"></i>
+          <h2>Data Analysis</h2>
+          <p>
+            Data analysis examines information to uncover insights and make
+            informed decisions.
+          </p>
+        </div>
+        <div class="service">
+          <i class="ri-smartphone-line"></i>
+          <h2>App Development</h2>
+          <p>
+            App development crafts software applications to meet user needs and
+            enhance digital experiences.
+          </p>
+        </div>
+        <div class="service">
+          <i class="ri-window-fill"></i>
+          <h2>Website Development</h2>
+          <p>
+            Website development builds and optimizes websites to meet user needs
+            and enhance online experiences.
+          </p>
+        </div>
+        <div class="service">
+          <i class="ri-customer-service-line"></i>
+          <h2>Customer Service</h2>
+          <p>
+            Customer service in website creation offers tailored assistance and
+            support to clients.
+          </p>
+        </div>
+        <div class="service">
+          <i class="ri-user-shared-line"></i>
+          <h2>Networking</h2>
+          <p>
+            Networking builds professional relationships for mutual benefit.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--Blog-->
+    <div id="blog" class="container_blog">
+      <div class="blog-section">
+        <div class="blog-heading">
+          <h1>Our Blog</h1>
+          <p>
+            In web design, creativity merges with functionality to craft
+            captivating digital experiences, harmonizing elements for seamless
+            interaction and brand-audience connection
+          </p>
+        </div>
+        <div class="blog-content">
+          <div class="card">
+            <img src="image/react.png" alt="" />
+            <p class="text-title">The ReactJS <span>-February7, 2024</span></p>
+            <h4>Loren ipsum dolor sit amet</h4>
+            <p>
+              ReactJS: A powerful JavaScript library by Facebook for building
+              efficient, reusable user interfaces effortlessly, revolutionizing
+              frontend development.
+            </p>
+            <a href="" class="button-blog">Read More</a>
+          </div>
+          <div class="card">
+            <img src="image/Tailwind.png" alt="" />
+            <p class="text-title">TailwindCSS<span>-February8, 2024</span></p>
+            <h4>Loren ipsum dolor sit amet</h4>
+            <p>
+              "Tailwind CSS: A utility-first CSS framework that streamlines the
+              process of building efficient and reusable user interfaces with
+              its simple and intuitive approach."
+            </p>
+            <a href="" class="button-blog">Read More</a>
+          </div>
+          <div class="card">
+            <img src="image/nextjs.png" alt="" />
+            <p class="text-title">NextJS<span>-February10, 2024</span></p>
+            <h4>Loren ipsum dolor sit amet</h4>
+            <p>
+              Next.js: A powerful React framework that simplifies building
+              efficient and dynamic web applications with server-side rendering
+              and easy-to-use APIs.
+            </p>
+            <a href="" class="button-blog">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- js-->
     <script type="text/javascript" src="js/script.js"></script>
-
-</body>
+  </body>
 </html>
