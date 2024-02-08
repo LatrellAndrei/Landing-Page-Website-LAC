@@ -36,7 +36,7 @@ header{
     align-items: center;
     justify-content: space-between;
     background: #ffffff;
-    padding: 28px 12%;
+    padding: 20px 10%;
     transition: all .50s ease;
     margin-bottom: 150px; /* Increase space */
 
@@ -149,6 +149,7 @@ header{
 
 .heading__1 {
     font-weight: 700;
+    
 }
 
 .heading__2 {
@@ -161,6 +162,8 @@ header{
     font-size: 1rem;
     color: var(--text-color2);
     margin-bottom: 2rem;
+    font-family: 'Poppins', sans-serif;
+
 
 }
 
@@ -233,7 +236,87 @@ header{
 
 }
 
-/* this is the css for the services part of html */
+/* this is the css for the about us part */
+
+.about {
+    height: 100vh;
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about .main-about img {
+        width: 400px;
+        max-width: 100%;
+        height: auto;
+        padding: 0 10px;
+}
+
+.all-text {
+    width: 600px;
+    max-width: 100%;
+    padding: 0 10px;
+}
+
+.main-about {
+    width: 1290px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.all-text h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #777777;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.all-text h1 {
+    font-size: 35px;
+    color: #111111;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.all-text p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #777777;
+    line-height: 30px;
+    margin-bottom: 35px;
+}
+
+.btn-about button {
+    background: var(--primary-color);
+    padding: 20px 32px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    box-shadow: 0px 16px 32px 0px rgb(0 0 0 / 6%);
+    margin-right: 20px;
+}
+
+.btn-about button:hover {
+    background-color:var(--primary-color-dark);
+    color: white;
+    transition: .3s;
+    cursor: pointer;
+}
+
+
+
+
+/* this is the css for the services part */
 
 .container_features {
     width: 100%;
@@ -397,5 +480,36 @@ header{
 
     }
 
+    
+}
+/* about media responsive */
+
+@media screen and (max-width: 1250px) {
+    .about {
+        width: 100%;
+        height: auto;
+        padding: 60px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .all-text {
+        text-align: center;
+        margin-top: 40px;
+
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .about .main-about img {
+        margin-top: 25px;
+        order: 2; 
+        width: 300px;
+    }
+
+    .all-text h1 {
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
     
 }
