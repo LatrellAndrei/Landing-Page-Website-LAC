@@ -415,7 +415,7 @@ header {
   max-width: 350px; /* Limit card width */
 }
 .blog-content .card img {
-  width: 100%;
+  width: 35%;
   height: auto;
 }
 
@@ -461,8 +461,8 @@ header {
   transition: 0.4s;
 }
 
-/*media responsive */
-/* navbar header media responsive */
+/*media responsive styles */
+/* navbar header media responsive styles */
 
 @media (max-width: 1280px) {
   header {
@@ -514,7 +514,7 @@ header {
   }
 }
 
-/* landing page responsive */
+/* landing page responsive styles */
 
 @media (max-width < 900px) {
   .link a:not(.nav__btn) {
